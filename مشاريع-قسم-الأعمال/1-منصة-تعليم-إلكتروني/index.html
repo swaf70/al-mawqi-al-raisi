@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تعليم إلكتروني ذكية</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="container topbar-inner">
+            <span class="logo">منصتي</span>
+            <nav class="nav">
+                <a href="#courses">الدورات</a>
+                <a href="#quiz">اختبار سريع</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero container">
+        <h1>تعلّم بذكاء، وتابع تقدّمك خطوة بخطوة</h1>
+        <p>لوحة تحكم للطالب والمعلم، اختبارات تفاعلية، وتقارير تقدّم لحظية.</p>
+    </section>
+
+    <section id="courses" class="container">
+        <h2>الدورات المتاحة</h2>
+        <div class="courses-grid" id="coursesGrid"></div>
+    </section>
+
+    <section id="quiz" class="container quiz-card">
+        <h2>اختبار سريع</h2>
+        <p id="quizQuestion">اضغط زر البدأ لبدء اختبار من 3 أسئلة.</p>
+        <button id="quizStart" class="btn">بدأ الاختبار</button>
+        <p id="quizResult" class="result"></p>
+    </section>
+
+    <footer class="footer container">كل الحقوق محفوظة — منصة تعليم إلكتروني ذكية</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
